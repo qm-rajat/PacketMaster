@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "filename": "sample.pcap",
+    "timestamp": "2026-04-23T07:38:49.595203",
+    "report_version": "1.0"
+  },
+  "analysis": {
+    "performance": {
+      "traffic_statistics": {
+        "total_packets": 80,
+        "total_bytes": 3640,
+        "duration_seconds": "0.02",
+        "packets_per_second": "5093.59",
+        "average_packet_size": 45.5,
+        "throughput_mbps": "1.85",
+        "throughput_gbps": "0.0019"
+      },
+      "protocol_breakdown": {
+        "protocols": [
+          {
+            "protocol": "Non-IP",
+            "packets": 60,
+            "percentage": 75.0,
+            "bytes": 2560
+          },
+          {
+            "protocol": "TCP",
+            "packets": 20,
+            "percentage": 25.0,
+            "bytes": 1080
+          }
+        ]
+      },
+      "top_talkers": {
+        "top_source_ips": [
+          {
+            "ip": "192.168.1.1",
+            "packets": 20,
+            "bytes": 1080
+          }
+        ],
+        "top_dest_ips": [
+          {
+            "ip": "8.8.8.8",
+            "packets": 20,
+            "bytes": 1080
+          }
+        ]
+      },
+      "tcp_analysis": {
+        "total_connections": 20,
+        "established_connections": 0,
+        "reset_connections": 0,
+        "tcp_packets": 20,
+        "syn_fin_ratio": 20.0
+      },
+      "packet_size_distribution": {
+        "min_size": 40,
+        "max_size": 56,
+        "avg_size": 45.5,
+        "median_size": 40,
+        "std_dev": 7.12
+      }
+    },
+    "security": {},
+    "ml": {}
+  }
+}
