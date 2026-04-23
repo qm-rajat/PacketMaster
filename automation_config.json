@@ -1,0 +1,19 @@
+{
+  "watch_directory": "pcaps/",
+  "report_directory": "reports/",
+  "schedule_interval": 3600,
+  "email_alerts": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password",
+    "recipients": ["admin@company.com"]
+  },
+  "alert_thresholds": {
+    "anomaly_rate": 0.05,
+    "security_alerts": 1,
+    "packet_spike": 10000
+  },
+  "retention_days": 30
+}

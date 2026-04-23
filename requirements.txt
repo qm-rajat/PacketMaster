@@ -1,0 +1,10 @@
+scapy
+pyshark
+pandas
+matplotlib
+plotly
+flask
+scikit-learn
+numpy
+schedule
+pymongo
